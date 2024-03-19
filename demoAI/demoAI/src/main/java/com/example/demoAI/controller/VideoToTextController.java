@@ -1,5 +1,7 @@
 package com.example.demoAI.controller;
 
+import com.google.api.gax.core.FixedCredentialsProvider;
+import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.speech.v1.*;
 import com.google.protobuf.ByteString;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -7,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -22,8 +25,10 @@ public class VideoToTextController {
         }
 
         try {
+            GoogleCredentials credentials = GoogleCredentials.fromStream(new FileInputStream("./demoAI/src/main/resources/keyfile1.json"));
+            SpeechSettings settings = SpeechSettings.newBuilder().setCredentialsProvider(FixedCredentialsProvider.create(credentials)).build();
             // Khởi tạo SpeechClient
-            try (SpeechClient speechClient = SpeechClient.create()) {
+            try (SpeechClient speechClient = SpeechClient.create(settings)) {
                 // Tạo đường dẫn tạm thời cho tệp video
                 Path tempFilePath = Files.createTempFile("temp", ".flac");
                 file.transferTo(tempFilePath.toFile());

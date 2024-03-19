@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mom-assistant",
+  "private_key_id": "4ece0a6c302e97339d0e366481ac148362b45f1c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCwIB/Bbnt1QN1e\nQawzoXYCO52p6J1qYYfD9YTcc/bU3N6sjd630rYB0TQyRC0UVtGKUVAZedbgrJNu\ngEr1BGdq8JRSvkbw4dHhoEHMkUJjMnpypoZ6jh/XkpY4LmsjgiFP+NvqGJTEUjyJ\no70r5abV3sDm/tVwXU9WAc0S7gELE8b0ab71WHYvA8cCUGM9Go6UD/9wXVgAhC5o\nZHHqGuiiYUlVVJSfOWeVVoQAoSfiMNDC1wLY31JrYOzTVHv1GroqVfrpfQZSI3Eo\n+bqCOudDtyB/IdOG5EM81agVqczuVjIglcTfsX+OZteCcywIAQJm2MkSpSA+dlgM\nbO74yHEbAgMBAAECggEAR4lUvKFeXdqxz0YHZpUvNGr4d/m2bm4c0dgYVd54JC9t\n9lJNYwafzI8njz8nvDojM/Yg/agCQhF2dIyBZZGbW9FJvW3xrIdcUzNfZnKdr2Li\nX00KFB9ECbBNeZZJCAwj8bKXyDahvjfUxOcPwBOwNvAaE/jvworz3XAv1n97Rv7d\nsCp0Ti5VUUQ8VrmddMYYReq14d29spEW3VLn74oCOvxbga9AZmsvcEU4LGvwjdp0\nSX9MQRiKVCCfXB3fHnxn76SvID1Rnd1tQ94Tc7BWwFdiyxfKi5Hwe/HfJpfJbnNi\njWIfVQ/yFmH0fok3GCNfUCxVd1FvBCOn3OrymBfIgQKBgQDgXZNN31PSBG/mKR74\n/eHg4Ph90POTjSmVQRwZ/rCuFznjdXQrkpSMq0GXWJsTHeltwv/Enct/rHGFy8vf\n99cmXfmCVgiBj/0sW7EhH/66ksA4QfKxUMciqC0fxWP7wPU90REaRMDq1JxS+YLY\nLzsxxGbYE0DGpzhiSoucKaiDwQKBgQDI9VW2C3ZBBFWZ5xwLPChn4O/nmQzZrDtl\nXGQTsOKg5j4FwBMrSAZE30jwhqG8T04M0fiFXYc3P6lnY0UQxuv62wprWmRfab9z\nOxlYyY327LSEtzh8KseyfmuCrtu/tczjVqhFofA7uaCPINrOzJVPpzWANec3rNEJ\nIWZhytJ72wKBgDnyMP8ltKJDHxtUd3lbKKFJuSPVeXMcPCceH8He84ai3QKP7Sbr\nvo3uFQyfh72SNh1xBVmkX1BkGxWxIsB/ZAO2taAh1CSSKZLxQ3gIqWNKT3a4IZQG\nBsg+oxjXhBEbLrt+aWpdY23C53TOmCp5WFJsJRudLVehDIDmO9RjNfCBAoGAZDB8\nlRBN2shwbRSeFLPfaTrqIMtbbsLBsh1H/9E2jAV+cpt6cx+rkHbKBLD6vcnEHfwp\nLUSd/1uL9/G0I1Mpn53JKhCc7jzoqGiUkIGcd7k3nttCHBWwDjudGkBXatMW3Vj8\n+ApunThE5lb5ABVbc6TntY4qQsW0ShsO0j6uhfUCgYBUNKXDFN8ePt8AmRTWS4Ot\nKQnI1V7Q2dF8EZf62bL/pbAJ1AfNTzajFfn/cOCPm+KtxE5FGOlWrsP5smACkE3Z\nhrYM7DLZchCpXqMjroZhguleoZKBkxH5QIwZVUHNCgLeu9WNL2AMYE7PZaO/MfMC\nJ2bdG08QGvv0urBkAZ1IdA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "speechtotext@mom-assistant.iam.gserviceaccount.com",
+  "client_id": "108119697724302024039",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speechtotext%40mom-assistant.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
