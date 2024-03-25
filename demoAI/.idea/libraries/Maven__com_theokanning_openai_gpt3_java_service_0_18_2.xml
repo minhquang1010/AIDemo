@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.theokanning.openai-gpt3-java:service:0.18.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/theokanning/openai-gpt3-java/service/0.18.2/service-0.18.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/theokanning/openai-gpt3-java/service/0.18.2/service-0.18.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/theokanning/openai-gpt3-java/service/0.18.2/service-0.18.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
